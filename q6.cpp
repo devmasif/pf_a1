@@ -9,4 +9,8 @@ cin>>n;
 
 cout<<bitset<4>(n)<<endl;
 n= bitset<1>(n);
+
+//remaining implementatiaon working on
+
+
 }

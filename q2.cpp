@@ -27,13 +27,13 @@ D2=N2%10;
 D3=N3%10;
 
 
-//When numbers entered are >0 and 2 of the rightmost digits are equal then output is true  
+//When numbers entered are >0 and any 2 of the rightmost digits are equal then output is true  
 result1=((D1==D2)||(D2==D3)||(D1==D3))&&((N1>=0)&&(N2>=0)&&(N3>=0)) && cout<<"\n The result is : true" ;
 
-//when numbers entered are >0 and all the right most digits are not equal then output is false 
+//when numbers entered are >0 and all the rightmost digits are not equal then the output is false 
 result2=(D1!=D2)&&(D1!=D3)&&(D2!=D3)&&((N1>=0)&&(N2>=0)&&(N3>=0)) && cout<<"\n The result is : false ";
 
-//when number entered are <0 then output is invalid entry (even if 2 of them are equal) 
+//when the numbers entered are <0 then the output is an invalid entry (even if 2 of them are equal) 
 invalid= ((N1<0)||(N2<0)||(N3<0))  && cout<<"\n The numbers entered are invalid ";
 
 cout<<"\n\n";

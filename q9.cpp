@@ -10,7 +10,7 @@ using namespace std;
 
 int main(){
 //Declaring Variables
-int a,b,c,d,max_num,second_max_num;
+int a,b,c,d,max_num,second_max_num; 
     
 //Ask the user to input four number 
 cout<<"\n Enter four numbers: "<<endl;

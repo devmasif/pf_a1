@@ -2,7 +2,7 @@
 //23I-0648
 //CS-G
 //Assignment # 1
-//Question # 9 (Ternary only)
+//Question # 9 (Ternary operator only)
 
 #include<iostream>	
 #include<cmath>
